@@ -1,1 +1,1 @@
-http://localhost:8501/#e-commerce-dashboard
+https://app-e-commerce-vxjybt5qgptg5gcojwu9db.streamlit.app/
