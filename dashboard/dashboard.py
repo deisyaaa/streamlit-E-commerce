@@ -9,7 +9,7 @@ sns.set(style='darkgrid')
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.zip")
+    df = pd.read_csv("dashboard/main_data.zip")
     df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"])
     return df
 
@@ -19,6 +19,7 @@ df = load_data()
 with st.sidebar:
     st.title("Deisa Anggella Adista")
     st.markdown("**ID Dicoding:** CDCC525D6X0090")
+    st.image("https://raw.githubusercontent.com/dicodingacademy/assets/main/logo.png")
     
     st.write("### Filter Data")
     
